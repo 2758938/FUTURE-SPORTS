@@ -34,17 +34,26 @@ body {
   color: black;
 }
 
+
 /* Search Function */
 
-* {
-box-sizing: border-box;
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
 }
 
-form.example input[type=text] {
-padding: 10px;
-font-size: 25px;
-border: 2px solid grey;
-float: right;
-width: 20%;
-background: 0;
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 5px; /* rounded corners to fit theme */
+  font-size: 25px;  
+  transition: border 0.3s;
 }
+
+.search-input:focus {
+  border-color: lightgray;
+  outline: none;
+}
+
