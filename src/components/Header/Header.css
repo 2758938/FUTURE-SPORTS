@@ -1,0 +1,50 @@
+/* Main banner image, navigation and search bar */
+
+body {
+  margin: 0;
+  font-family: Cursive;
+}
+
+/* URL to hero image in header file */
+
+.hero-section {
+  background-image: url('hero-image.jpg') ; 
+  background-color: white;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+  /* Navbar links across the top of the picture */
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  z-index: 2; /* puts navigation bar above hero image */;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+/* Search Function */
+
+* {
+box-sizing: border-box;
+}
+
+form.example input[type=text] {
+padding: 10px;
+font-size: 25px;
+border: 2px solid grey;
+float: right;
+width: 20%;
+background: 0;
+}

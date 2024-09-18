@@ -1,0 +1,45 @@
+        /* Styling for the subscription form */
+        body {
+          font-family: cursive;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+          background-color: white;
+      }
+      .container {
+          background: light grey;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      h1 {
+          margin-top: 0;
+      }
+      input[type="email"] {
+          width: 100%;
+          padding: 10px;
+          margin-bottom: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+      }
+      button {
+          background-color: grey;
+          color: white;
+          border: none;
+          padding: 10px;
+          border-radius: 4px;
+          cursor: pointer;
+          width: 100%;
+      }
+      button:hover {
+          background-color: blue;
+      }
+      .message {
+          margin-top: 10px;
+          color: light blue;
+      }
+      .error {
+          color: #dc3545;
+      }
